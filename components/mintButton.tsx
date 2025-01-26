@@ -526,11 +526,11 @@ export function ButtonList({
     let buttonElement: GuardButtonList = {
       label: guard ? guard.label : "default",
       allowed: guard.allowed,
-      header: text ? text.header : "header missing in settings.tsx",
-      mintText: text ? text.mintText : "mintText missing in settings.tsx",
+      header: text ? text.header : "PUBLIC MINT",
+      mintText: text ? text.mintText : "Public mint paying with SOL",
       buttonLabel: text
         ? text.buttonLabel
-        : "buttonLabel missing in settings.tsx",
+        : "Mint now!",
       startTime,
       endTime,
       tooltip: guard.reason,
@@ -623,7 +623,7 @@ export function ButtonList({
               }
               key={buttonGuard.label}
               size="sm"
-              backgroundColor="teal.100"
+              backgroundColor="rgb(252, 164, 0)"
               isDisabled={!buttonGuard.allowed}
               isLoading={
                 guardList.find((elem) => elem.label === buttonGuard.label)

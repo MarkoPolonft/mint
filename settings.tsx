@@ -8,7 +8,7 @@ export const mintText = [
 ];
 
 //header image in the ui. replace with your own
-export const image = "https://avatars.githubusercontent.com/u/93528482?v=4";
+export const image = "https://github.com/MarkoPolonft/spl-token-img/blob/main/collection.png?raw=true";
 
 //website title
-export const headerText = "MarkSackerberg's mint UI";
+export const headerText = "Marko Polo: Vogue Collection";
