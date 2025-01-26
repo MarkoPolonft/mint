@@ -11,4 +11,4 @@ export const mintText = [
 export const image = "https://github.com/MarkoPolonft/spl-token-img/blob/main/collection.png?raw=true";
 
 //website title
-export const headerText = "Marko Polo: Vogue Collection";
+export const headerText = "Marko Polo";
