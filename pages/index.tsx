@@ -203,7 +203,8 @@ export default function Home() {
         <style jsx global>
           {`
       body {
-          background: #2d3748; 
+          background: rgb(0,17,35);
+          background: linear-gradient(90deg, rgba(0,17,35,1) 0%, rgba(0,70,102,1) 100%);
        }
    `}
         </style>
@@ -215,7 +216,7 @@ export default function Home() {
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" marginLeft="auto">
-                  <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} minHeight={"50px"} p={2} >
+                  <Box background={"rgb(252,164,0)"} borderRadius={"5px"} minWidth={"50px"} minHeight={"50px"} p={2} >
                     <VStack >
                       <Text fontSize={"sm"}>Available NFTs:</Text>
                       <Text fontWeight={"semibold"}>{Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
